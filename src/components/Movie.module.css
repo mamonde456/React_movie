@@ -1,0 +1,16 @@
+.movie_section {
+  width: 300px;
+  height: 100%;
+  float: left;
+  background: red;
+  /* margin-right: 30px; */
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+.movie_section :last-child {
+  margin-left: 0px;
+}
+.movie_img {
+  width: 200px;
+  height: auto;
+}

@@ -1,0 +1,38 @@
+.header_wrap {
+  width: 100%;
+  height: 100px;
+  /* background: red; */
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+}
+.header_wrap :hover ::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  background: yellow;
+  -webkit-transition: 0.5s ease-in-out;
+  z-index: -1;
+}
+.header_inner {
+  width: 100%;
+  height: 100%;
+  margin: 0px auto;
+}
+
+.movies {
+  width: 100%;
+  height: 500px;
+  float: left;
+  margin-top: 100px;
+}
+.movie_inner {
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+  background: blue;
+}
